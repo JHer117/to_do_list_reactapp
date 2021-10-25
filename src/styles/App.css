@@ -4,6 +4,8 @@
 
 .App .CheckList{
   background-color: rgb(51, 189, 143);
+  padding-top: 15px;
+  border-radius: 2px 8px 2px 8px;
 
 }
 

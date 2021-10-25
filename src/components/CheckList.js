@@ -1,4 +1,5 @@
 import React from "react";
+import ToDoItem from "./ToDoItem";
 
 function CheckList(){
     return(
@@ -6,23 +7,21 @@ function CheckList(){
             
             <div className="row">
                 <div className="col">
-                    <input className="checkboxes" type="checkbox" />
-                    <label> Item 1</label>
+                    <ToDoItem />
 
                 </div>
                 
             </div>
             <div className="row">
                 <div className="col">
-                    <input className="checkboxes" type="checkbox" />
-                    <label> Item 2</label>
+                    <ToDoItem />
+                        
                 </div>
                 
             </div>
             <div className="row">
                 <div className="col">
-                    <input className="checkboxes" type="checkbox" />
-                    <label> Item 3</label>
+                    <ToDoItem />
                     
                 </div>
             </div>

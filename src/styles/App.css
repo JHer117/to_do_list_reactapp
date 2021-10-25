@@ -1,0 +1,13 @@
+.App {
+  color: whitesmoke;
+}
+
+.App .CheckList{
+  background-color: rgb(51, 189, 143);
+
+}
+
+.App .CheckList .checkboxes{
+  margin-left: 10px;
+
+}

@@ -5,7 +5,7 @@ import toDosData from "./ToDosData";
 
 function CheckList(){
 
-      const toDoComponent = toDosData.map(item => <ToDoItem key={item.id} item={item} />) 
+    const toDoComponent = toDosData.map(item => <ToDoItem key={item.id} item={item} />) 
 
 
     return(

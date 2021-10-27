@@ -7,10 +7,11 @@ let todostyle = {
 
 }
 
+
 const ToDoItem = (props) =>(
     
     <div>
-        <input className="checkboxes" type="checkbox" />
+        <input className="checkboxes" type="checkbox" checked={props.item.completed}/>
         <label> {props.item.text} </label>
         <hr style={todostyle} />
 

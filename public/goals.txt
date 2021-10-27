@@ -11,7 +11,7 @@ PT2.
 
 PT3.
 
-Challenge: Using the array map method, render a child component for each todo item in the todosData array and pass the relevant data to it.
+Challenge: Using the array map method, render a child component for each todo item in the todosData array and pass the relevant data to it.✔️
 
 
 

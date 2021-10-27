@@ -12,19 +12,6 @@ function CheckList(){
                 </div>
                 
             </div>
-            <div className="row">
-                <div className="col">
-                    <ToDoItem />
-                        
-                </div>
-                
-            </div>
-            <div className="row">
-                <div className="col">
-                    <ToDoItem />
-                    
-                </div>
-            </div>
 
         </div>
         

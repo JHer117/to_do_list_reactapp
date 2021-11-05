@@ -1,27 +1,27 @@
-import React from "react";
+import React, {Component} from "react";
 import ToDoItem from "./ToDoItem";
 import toDosData from "./ToDosData";
 
 
-function CheckList(){
 
-    const toDoComponent = toDosData.map(item => <ToDoItem key={item.id} item={item} />) 
-
-
-    return(
-        <div className="CheckList container text-center">
+class CheckList extends Component{
+    render(){
+        const toDoComponent = toDosData.map(item => <ToDoItem key={item.id} item={item} />)
+        return(
+            <div className="CheckList container text-center">
             
-            <div className="row">
-                <div className="col">
+                <div className="row">
+                    <div className="col">
                     {toDoComponent}
 
-                </div>
+                    </div>
                 
-            </div>
+                </div>
 
-        </div>
-        
-    )
+            </div>
+        )
+    }
+
 }
 
 export default CheckList

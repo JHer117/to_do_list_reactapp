@@ -5,8 +5,16 @@ import toDosData from "./ToDosData";
 
 
 class CheckList extends Component{
+    constructor(){
+        super()
+        this.state = {
+            todos: toDosData
+        }
+    }
+
+
     render(){
-        const toDoComponent = toDosData.map(item => <ToDoItem key={item.id} item={item} />)
+        const toDoComponent = this.state.todos.map(item => <ToDoItem key={item.id} item={item} />)
         return(
             <div className="CheckList container text-center">
             
